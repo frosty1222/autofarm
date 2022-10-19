@@ -1,0 +1,56 @@
+axios.defaults.headers.common['Accept-Language'] = lang
+ v-for="i in Math.ceil(dataaction.length / 3)" :key="i.id"
+ const length = localStorage.length();//get length of localstorage 
+  // Lấy ra số lượng session storage đã lưu
+ const length = sessionStorage.length();
+    // Lấy ra tên key trong session storage với index chỉ định
+const key = sessionStorage.key(0); // Key của dữ liệu được thêm gần nhất tương ứng với index = 0
+npm remove @vue/cli-plugin-eslint // to remove the notify from vue
+// router.beforeEach((to, from,next) => {
+//     let routerAuthCheck = false;
+//     if(routerAuthCheck) {
+//         store.commit('setUserIsAuthenticated',true);
+//     }
+//     // console.log(`Navigating to: ${to.name}`);
+//     // // next();
+//     // console.log(to);
+//     // console.log(from);
+//     // next();
+//     if(to.matched.some(record=>record.meta.requiresAuth)){
+//         if(routerAuthCheck){
+//             next();
+//         }else{
+//             router.replace('/login');
+//         }
+//     }
+//     else{
+//         next();
+//     }
+// });
+//  getDataFromToken(){
+    //   let baseUrl = 'https://customer.autofarmer.net';
+    //   let token ='e41e28cd-fb3c-11ec-8fc6-a0369facf454';
+    //   let id = '/v1/clones/search';
+    //   let page =2;
+    //   let params = {"alive_status":["live","checkpoint","stored","getting","checking"],"appname":["facebook"],"page":1,"limit":50,"android_id":null};
+    //   const instance = axios.create({
+    //     baseURL:baseUrl,
+    //     headers: {
+    //         'token':token
+    //     },
+    //     });
+    //    instance.post(id,params,page,100).then(res=>{
+    //      this.newData = res.data.data.data;
+    //       //  console.log(this.newData);
+    //     // console.log(this.newValue);
+    //       // console.log(this.newValue);
+    //    });
+    //  }
+
+ changeColorChildThird(i){
+        $('.child-value-fourth').removeClass("fractive");
+       $('.child-value-fourth').on('click',function(){
+            $(this).addClass("fractive");
+       })
+    },
+ e.target.textContent;//get the value of the class 

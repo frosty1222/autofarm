@@ -1,0 +1,25 @@
+{
+  "common":{
+      "language":"language"
+  },
+  "PIf":{
+    "no":"No.",
+    "name":"Name",
+    "email":"Email",
+    "phone":"Phone",
+    "gender":"Gender",
+    "action":"Action"
+  },
+  "deepInfo":{
+    "male":"male",
+    "female":"female",
+    "another":"another gender",
+    "delete":"delete",
+    "edit":"edit",
+    "detail":"detail",
+    "add":"add"
+  },
+  "Title":{
+    "title":"Test Component"
+  }
+}

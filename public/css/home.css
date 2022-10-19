@@ -1,0 +1,155 @@
+.clearfix{clear:both;}
+a{color:#fff;}
+/* header bar */
+*{
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue;
+}
+a{text-decoration:none;}
+body{
+    margin:0px;
+}
+.empty-alert {
+    width: 100%; height: 70px;align-items: center;padding-top: 70px;
+}
+.empty-spacing{width:100% !important;height:auto;margin:auto;}
+.right-icon a{color:#fff;}
+#clone a{color:#fff;}
+.hello{
+width:100%;height:auto; margin:0px;padding:0px;
+ }
+.container-home{
+ width:100%;height:auto;padding:0px;margin:0px;
+ }
+.container-home .heading-bar{
+ height:72 px;width: 100%; background-color:#fff;overflow:hidden;
+}
+ .heading-bar .left-icon{
+     height:auto;
+}
+.inner-header{line-height:1.5;padding:15px 1.5em;height:71px;}
+.heading-bar .right-list-icon{
+height:auto;text-align: right;
+}
+.inner-header{width:100%;height:auto;display:grid;grid-template-columns:20% 80%;grid-template-rows:auto;}
+.parent-list{display:flex;width:auto;padding:0px;margin:0px;float:right;}
+.parent-list li{display:inline-block;width:auto;margin-right:30px;margin-top:5px;}
+ .parent-list li #triangle{width:25px;height:20px;}
+.parent-list .flag span{display:block;visibility:visible;padding:5px 0px;text-align:center;}
+.flag span img{width:25px; height:20px;}
+.parent-list .price{font-size: 12px;margin-top:10px;}
+.price span{margin-top:-4px;position:absolute;}
+.parent-list .flag{position:relative;margin-top:10px;}
+.flag .dropdown{width:80px;height:80px;background-color:#fff;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); border:1px solid whiteSmoke;display:none;position:fixed;right:40px;margin-top:-10px;}
+.flag .fa-down{width: 0px; border-top: 5px solid #333;position: absolute; height: 0px; border-right: 5px solid transparent; border-left: 5px solid transparent;right:-15px;top:5px;cursor:pointer;}
+.avatar i{
+          width: 50px; height: 50px;padding: 8px 13px;background-color: #80AAFF; border-radius: 50%;color:#fff;}
+.main-content-under-bar{width:100%;height:auto;border-top:2px solid whitesmoke;}
+.main-content-container{width:100%;display:flex;margin:0px;padding:0px;}
+/* left bar container */
+.left-bar-container{width:20%;height:auto;padding-bottom:80px;background-color:#1E3C72;overflow:hidden;text-align:center;padding-top:40px;}
+.right-bar-container{width:80%;height:auto;padding-bottom:100px;background-color: #F4F6F8;}
+.list-child-icon-main{width:100%;height:auto;background-color:transparent;padding:0px;}
+.list-child-icon-main ul{
+    width:80%;height:auto;display:flex;padding:10px 10px 10px 10px;margin-left: auto;margin-right: auto;
+    flex:1 1 0%;margin-top:0px;margin-bottom:0px;
+    cursor: pointer;
+}
+.home-icon{
+    background-color:#4E89FF; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px;;
+}
+.list-child-icon-main ul .right-icon{
+    width:80%;text-align: left;color:#fff;line-height: 1.5;font-size:15px;
+}
+.list-child-icon-main ul .right-icon ul{width:100%;height:auto;display:block;}
+.list-child-icon-main ul .right-icon .sub-list{height:auto;width:100%;display:none;padding-left:37px;}
+.list-child-icon-main ul .right-icon ul li{padding-bottom:8px;}
+.right-icon ul li a{color:#fff;line-height:2;padding:10px;}
+.list-child-icon-main ul .left-icon{
+    width:20%;
+    text-align: left;color:#fff;
+}
+.left-bar-container hr{width:80%;border:1px solid #2a5298;margin:30px;}
+/* right bar0 */
+.main-right-bar{width:auto;background-color:#F4F6F8;height:100%;padding:40px;}
+/* home page */
+.homepage{
+    width:100%;height:auto;margin:0px;padding:0px;
+}
+.homepage .rules{width:100%;height:auto;margin:0px;padding:0px;}
+.rules .main-rules{width:100%;height:auto;margin:0px;padding:0px;}
+.main-rules legend{width:100%;height:auto;text-align:left;font-size:29px;color:#DC3E67;text-transform:uppercase;font-weight:500;}
+.main-rules p{margin-left:20px;padding:0px;width:auto;text-align:left;font-size: 18px;font-weight: 600;color:#DC3E67;line-height:1.5;margin-right:0px;margin-top:5px;margin-right:0px;}
+/* recharge-container */
+.recharge-container{width: 100%;height:auto;margin:0px;padding:0px;}
+.recharge-container legend{font-size:20px;text-transform: uppercase;font-weight:400;text-align: left;color:#666;line-height:35px;padding-top:60px;padding-bottom:30px;}
+.ul-recharge{width:340px;background-color:#fff;padding:0px; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px;float:left;overflow:hidden;}
+.ul-recharge li{ width:350px; height:300px; margin:0px; padding:0px; position: relative;overflow: hidden;}
+li .li-top{width:100%;display:flex;text-align:center;align-items: center;}
+.li-top .left-img{width:50%;text-align:left;height:auto;}
+.left-img img{ background-color:#E5EDFE; height:70px; width:80px; padding:8px 5px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ; }
+.li-top .right-price{width:50%;text-align:right;}
+.right-price p{color:blue;font-size:17px;margin-right:20px;}
+.right-price span{font-size:20px;margin-right:10px;}
+.ul-recharge li .inner-li{padding:30px;}
+.ul-recharge li .discount-tag {
+    position: absolute; background-color: #4E89FF; height: 0px; color: #fff; padding-left: 31px; padding-right: 33px;right: -11px; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg); top: 15px; border-bottom: 20px solid transparent;
+}
+.ul-recharge li .under-but{ position:absolute; bottom:30px; border:1px solid #4E89FF; text-align:center; margin-left: auto; margin-right:auto; padding:8px 85px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ; }
+.under-but .recharge-link{text-decoration:none;color:#666;}
+.ul-recharge li .under-but:hover{background-color:#4E89FF;color:#fff;cursor: pointer;}
+.ul-recharge li .under-but:hover .recharge-link{color:#fff;}
+/* earn-container */
+.earn-container legend{color:#666;text-transform: uppercase;font-size:20px;text-align: left;padding-top:30px;padding-bottom:30px;}
+.earn-container .child-earn{width:100%;display: flex;}
+.child-earn .ul-recharge{margin-right:20px;}
+/* dossier */
+.dossier legend{width:100%;font-size:20px;text-transform: uppercase;text-align: left;padding-top:30px;padding-bottom:30px;}
+/* list-person-infor */
+.list-person-infor{width:100%;height:auto;padding:0px;margin:0px;text-align: left;}
+.list-person-infor ul{width:100%;height:auto;padding:0px;margin:0px;}
+.list-person-infor ul li{display:flex;padding-bottom:15px;width:100%;}
+.list-person-infor ul li .left-list-text{width:30%;text-align: left;}
+.list-person-infor ul li .right-list-icon{width:70%;text-align: left;}
+.list-person-infor ul li .right-list-icon.red{color:red;}
+.list-person-infor ul li .right-list-icon.green{color:green;}
+/* download */
+.download legend{width:100%;font-size:20px;text-transform: uppercase;text-align: left;padding-top:30px;padding-bottom:30px;}
+.download ul{width:100%;height:auto;margin:0;padding:0;}
+.download ul li{width:100%;height:auto;display:flex;margin-bottom:15px;}
+.download ul li .d-right-name{width:30%;text-align: left;}
+.download ul li .d-left-link{width:70%;text-align:left;}
+.download ul li .d-left-link a{text-decoration:none;color:#666;}
+.download ul li .d-left-link a:hover{color:blue;}
+/* link */
+.link.active{
+   background-color:#4E89FF;width:100%;padding:10px;
+}
+/* special */
+.left-icon.special {
+    display: flex;width: 100% !important; margin-left: 0px; height:auto;padding:10px 0px !important;
+}
+.left-icon.special span{width:50%;text-align: left;}
+
+.left-icon.special svg {
+   width: 20%; margin-left: -10px;margin-right: 12px;
+}
+.left-icon.special1 {
+    display: flex;width: 100% !important; margin-left: 0px; height:auto;padding:10px 0px !important;
+}
+.left-icon.special1 span{width:50%;text-align: left;}
+
+.left-icon.special1 svg {
+   width: 20%; margin-left: -10px;margin-right: 12px;
+}
+.left-icon.special2 {
+    display: flex;width: 100% !important; margin-left: 0px; height:auto;padding:10px 0px !important;
+}
+.left-icon.special2 span{width:50%;text-align: left;}
+
+.left-icon.special2 svg {
+   width: 20%; margin-left: -10px;margin-right: 12px;
+}
+.list-child-icon-main .home.spe {
+    display: block;width: 86%;
+}
